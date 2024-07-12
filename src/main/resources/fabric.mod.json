@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "country_on_join",
+  "version": "${version}",
+  "name": "Country on Join",
+  "description": "Broadcasts join messages mentioning the country from which the players connect.",
+  "authors": [
+    "Sectorfive"
+  ],
+  "contact": {
+    "website": "https://sectorfive.win",
+    "repo": "https://github.com/Kame03/CountryOnJoin"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/country_on_join/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "win.sectorfive.country_on_join.CountryOnJoin"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
